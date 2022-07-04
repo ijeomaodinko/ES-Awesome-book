@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <h3>Awesome Books</h3>
+      <div class="icons">
+        <a href="#" class="list vertical-line">List</a>
+        <a href="#" class="addnew vertical-line">Add new</a>
+        <a href="#" class="contact vertical-line">Contact</a>
+      </div>
+    </nav>
+    <p class="date"></p>
+
+    <section class="booklist">
+      <h1>All awesome books</h1>
+      <div class="book-collection">
+        <!-- This is where all the books are displayed -->
+      </div>
+    </section>
+
+    <section class="form hidden">
+      <h1>Add a new book</h1>
+      <input type="text" placeholder="Title" name="title" class="input-title" />
+      <input
+        type="text"
+        placeholder="Author"
+        name="author"
+        class="input-author"
+      />
+      <button type="button" class="add">Add</button>
+    </section>
+
+    <section class="contact-information hidden">
+      <h1>Contact Information</h1>
+      <p>
+        Do you have any questions or just want to say "Hello"? <br />
+        You can reach out to us!
+      </p>
+      <ul>
+        <li>Our e-mail:@gmail.com</li>
+        <li>Our phone number:</li>
+        <li>Our address:streename 29, state.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Copyright.</p>
+    </footer>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

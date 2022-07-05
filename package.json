@@ -1,7 +1,7 @@
 {
   "name": "ES-Awesome-book",
   "version": "1.0.0",
-  "description": "",
+  "description": "ES6-Awesome-book In this project I made a website that stores books in a collection and dynamcally displays them at the top of the page.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/ijeomaodinko/ES-Awesome-book#readme",
   "dependencies": {
     "luxon": "^2.4.0"
-  }
+  },
+  "devDependencies": {}
 }

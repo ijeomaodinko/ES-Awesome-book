@@ -7,16 +7,16 @@ env:
 
 jobs:
   lighthouse:
-    name: Lighthouse
-    runs-on: ubuntu-18.04
+  name: Lighthouse
+  runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+  - uses: actions/checkout@v2
+  - uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
+     node-version: "12.x"
       - name: Setup Lighthouse
         run: npm install -g @lhci/cli@0.7.x
-      - name: Lighthouse Report
+    - name: Lighthouse Report
         run: lhci autorun --upload.target=temporary-public-storage --collect.staticDistDir=.
   webhint:
     name: Webhint

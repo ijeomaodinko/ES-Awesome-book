@@ -1,25 +1,4 @@
 {
-  "name": "es-awesome-book",
-  "version": "1.0.0",
-  "description": "ES6-Awesome-book In this project I made a website that stores books in a collection and dynamcally displays them at the top of the page.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ijeomaodinko/ES-Awesome-book.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ijeomaodinko/ES-Awesome-book/issues"
-  },
-  "homepage": "https://github.com/ijeomaodinko/ES-Awesome-book#readme",
-  "dependencies": {
-    "luxon": "^2.4.0"
-  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",

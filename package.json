@@ -1,5 +1,5 @@
 {
-  "name": "ES-Awesome-book",
+  "name": "es-awesome-book",
   "version": "1.0.0",
   "description": "ES6-Awesome-book In this project I made a website that stores books in a collection and dynamcally displays them at the top of the page.",
   "main": "index.js",
@@ -20,5 +20,15 @@
   "dependencies": {
     "luxon": "^2.4.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^2.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
 }

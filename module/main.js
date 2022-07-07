@@ -1,3 +1,4 @@
+/* eslint-disable*/
 class Book {
   constructor(title, author) {
     this.title = title;
@@ -12,10 +13,6 @@ class BookCollection {
 
   addBook(book) {
     this.booklist.push(book);
-  }
-
-  removeea(book) {
-    this.booklist.pop(book);
   }
 
   removeBook(booktitle) {

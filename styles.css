@@ -1,0 +1,147 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+.vertical-line {
+  display: inline-block;
+  border-left: 1px solid #ccc;
+  margin: 0 10px;
+  height: 1rem;
+  padding-left: 1rem;
+}
+
+nav {
+  display: flex;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 2px solid black;
+}
+
+.icons {
+  position: absolute;
+  right: 0;
+  padding-right: 2rem;
+}
+
+h1 {
+  font-size: 39px;
+  font-family: sans-serif;
+  width: fit-content;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.book-collection {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.book-collection div:nth-child(odd) {
+  background-color: rgb(196, 196, 196);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  height: 20px;
+  margin-right: 0.5rem;
+  padding: 3px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+  gap: 1rem;
+}
+
+.form h1 {
+  margin: 0;
+}
+
+.add {
+  width: fit-content;
+  align-self: flex-end;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 2px solid black;
+}
+
+.contact-information {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  align-items: center;
+  line-height: 26px;
+}
+
+.contact-information ul {
+  margin-left: 3rem;
+  line-height: 1.5rem;
+}
+
+.contact-information ul li {
+  list-style: disc;
+}
+
+.hidden {
+  display: none;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.booklist,
+.contact-information {
+  width: 100%;
+}
+
+.date {
+  float: right;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
